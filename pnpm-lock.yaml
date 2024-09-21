@@ -11,6 +11,12 @@ dependencies:
   '@vueuse/core':
     specifier: ^11.1.0
     version: 11.1.0(vue@3.5.6)
+  overlayscrollbars:
+    specifier: ^2.10.0
+    version: 2.10.0
+  overlayscrollbars-vue:
+    specifier: ^0.5.9
+    version: 0.5.9(overlayscrollbars@2.10.0)(vue@3.5.6)
   uuid:
     specifier: ^10.0.0
     version: 10.0.0
@@ -1541,6 +1547,20 @@ packages:
       type-check: 0.4.0
       word-wrap: 1.2.5
     dev: true
+
+  /overlayscrollbars-vue@0.5.9(overlayscrollbars@2.10.0)(vue@3.5.6):
+    resolution: {integrity: sha512-zZEcsb6llnKaRwXTP44E4RrmwuH+eAi70mgCdiiPwcPBE2H99Vs2V0q7sWnEanqU3462ch38e4SmIMnuH906DQ==}
+    peerDependencies:
+      overlayscrollbars: ^2.0.0
+      vue: ^3.2.25
+    dependencies:
+      overlayscrollbars: 2.10.0
+      vue: 3.5.6(typescript@5.4.2)
+    dev: false
+
+  /overlayscrollbars@2.10.0:
+    resolution: {integrity: sha512-diNMeEafWTE0A4GJfwRpdBp2rE/BEvrhptBdBcDu8/UeytWcdCy9Td8tZWnztJeJ26f8/uHCWfPnPUC/dtgJdw==}
+    dev: false
 
   /p-limit@3.1.0:
     resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}

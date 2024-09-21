@@ -1,0 +1,12 @@
+@import './reset.css';
+
+:root {
+  --text-color: #bfc1c4;
+  --text-color-dark: #7a7e85;
+}
+
+html {
+  color: var(--text-color);
+  background-color: #2f3137;
+  font-family: sans-serif;
+}

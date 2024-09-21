@@ -1,4 +1,5 @@
 import './assets/main.css'
+import 'overlayscrollbars/overlayscrollbars.css'
 
 import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
 import { createApp } from 'vue'
