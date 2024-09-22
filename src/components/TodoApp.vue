@@ -66,6 +66,7 @@ const completedTasks = computed(() => {
           autoHideDelay: 500
         }
       }"
+      style="height: 100%"
     >
       <div class="todo-section">
         <div>
@@ -95,7 +96,6 @@ const completedTasks = computed(() => {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  flex-grow: 1;
   padding-right: 0.75rem;
 }
 
