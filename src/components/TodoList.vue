@@ -23,6 +23,7 @@ onMounted(() => {
 <template>
   <ul class="todo-list" ref="todo-list">
     <li v-for="task in tasks" :key="task.id">
+      <!-- TODO: v-model:checked에 task.isCompleted 사용해도 되는 지 검토 필요 -->
       <TodoItem
         v-model:checked="task.isCompleted"
         :task="task"
